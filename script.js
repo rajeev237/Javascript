@@ -76,3 +76,4 @@ const averageAge = (ageJonas + ageSarah) / 2
 console.log(ageJonas, ageSarah, averageAge);
 
 
+
