@@ -29,7 +29,7 @@ console.log(year);
 console.log(typeof year);
 
 year = 1991;
-console.log(typeof year); 
+console.log(typeof year);
 */
 
 /*
@@ -44,10 +44,10 @@ const birthYear = 1991;
 var job = 'programmer';
 job = 'teacher';
 */
-const now = 2037;
-const ageJonas = now - 1998;
-const ageSarah = now - 2018;
-console.log(ageJonas, ageSarah);
+// const now = 2037;
+// const ageJonas = now - 1998;
+// const ageSarah = now - 2018;
+// console.log(ageJonas, ageSarah);
 
 /*
 // 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
@@ -61,6 +61,7 @@ x *= 4; //x = x * 4
 x++; // x = x + 1
 console.log(x);
 */
+/*
 //Comparision operators
 console.log(ageJonas > ageSarah); // >, <, >=, <=
 console.log(ageSarah >= 35);
@@ -75,5 +76,60 @@ console.log(x, y);
 const averageAge = (ageJonas + ageSarah) / 2
 console.log(ageJonas, ageSarah, averageAge);
 
+// SWITCH statement
 
+const day = 'Friday';
 
+switch (day) {
+    case 'Monday': // this means day === 'Monday'
+        console.log('Plan course structure');
+        console.log('Go to coding meetup');
+        break;
+
+    case 'Tuesday':
+        console.log('Prepare theory videos');
+        break;
+
+    case 'Wednesday':
+    case 'Thursday':
+        console.log('Write code examples');
+        break;
+
+    case 'Friday':
+        console.log('Record videos');
+        break;
+
+    case 'Saturday':
+    case 'Sunday':
+        console.log('Enjoy the weekend :D');
+        break;
+    default:
+        console.log('Not a valid day!');
+}
+
+if (day === 'Monday') {
+    console.log('Plan course structure');
+    console.log('Go to coding meetup');
+} else if (day === 'Tuesday') {
+    console.log('Prepare theory videos');
+} else if (day === 'Wednesday' || day === 'Thursday') {
+    console.log('Write code examples');
+} else if (day === 'Friday') {
+    console.log('Record videos');
+} else if (day === 'Saturday' || day === 'Sunday') {
+    console.log('Enjoy the weekend :D');
+} else {
+    console.log('Not a valid day!');
+}
+*/
+
+//Conditional (Ternary) Operator (Alternative if/else statement)
+/*
+const age = 3;
+// age >= 18 ? console.log('I like to drink wine') :
+//     console.log('I like to drink water');
+const drink = age >= 18 ? 'wine' : 'water';
+console.log(drink);
+
+console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
+*/

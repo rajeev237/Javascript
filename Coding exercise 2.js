@@ -65,13 +65,37 @@ if (age === 18) { //if the age is exactly 18
     console.log('You just became an adult');
 }
 
-const favourite = Number(prompt("What's your favourite number?"));
-console.log(favourite);
+// const favourite = Number(prompt("What's your favourite number?"));
+// console.log(favourite);
 
-if (favourite == 23) { // == means loose equality operator. This converts the string into number
-    console.log('Cool! 23 is an amazing number!')
-} else if (favourite === 73) { // === this wouldn't work because it has to match exactly when that equal is used. In this casem 23 is a string, so it won't work.
-    console.log('It is cool as well')
+// if (favourite == 23) { // == means loose equality operator. This converts the string into number
+//     console.log('Cool! 23 is an amazing number!')
+// } else if (favourite === 73) { // === this wouldn't work because it has to match exactly when that equal is used. In this casem 23 is a string, so it won't work.
+//     console.log('It is cool as well')
+// } else {
+//     console.log('Number is neither 23 nor 73 :(')
+// }
+
+const hasDriversLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriversLicense && hasGoodVision); //And Operator
+console.log(hasDriversLicense || hasGoodVision); //Or Operator
+console.log(!hasDriversLicense); //Not Operator
+
+// const shouldDrive = hasDriversLicense &&
+//     hasGoodVision;
+
+// if (shouldDrive) {
+//     console.log('Sarah is able to drive!');
+// } else {
+//     console.log('Someone else should drive....');
+// }
+
+const isTired = true;
+console.log(hasDriversLicense && hasGoodVision && isTired);
+if (hasDriversLicense && hasGoodVision && !isTired) {
+    console.log('Sarah is able to drive!');
 } else {
-    console.log('Number is neither 23 nor 73 :(')
+    console.log('Someone else should drive...');
 }

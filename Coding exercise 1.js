@@ -36,7 +36,7 @@ const BMIJohn = massJohn / (heightJohn * heightJohn);
 const markHigherBMI = BMIMark > BMIJohn;
 console.log(BMIMark, BMIJohn, markHigherBMI);
 */
-
+/*
 const firstName = 'Jonas';
 const job = 'teacher';
 const birthYear = 2012;
@@ -67,7 +67,7 @@ if (age >= 18) {
     const yearsLeft = 18 - age;
     console.log(`Sarah will have to wait for another ${yearsLeft} years to apply for driving license ✋✋`)
 }
-*/
+
 let century;
 if (birthYear <= 2000) {
     century = 20;
@@ -75,3 +75,4 @@ if (birthYear <= 2000) {
     century = 21;
 }
 console.log(century);
+*/
